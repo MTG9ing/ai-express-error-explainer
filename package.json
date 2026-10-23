@@ -1,0 +1,41 @@
+{
+  "name": "ai-express-error-explainer",
+  "version": "0.1.0",
+  "description": "Express error middleware that explains errors in plain English using any OpenAI-compatible API.",
+  "license": "MIT",
+  "author": "MTG9ing <mtg9ing@gmail.com>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/smoke.test.cjs",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "error-handler",
+    "error-handling",
+    "ai",
+    "openai",
+    "llm",
+    "debugging",
+    "devtools"
+  ],
+  "peerDependencies": {
+    "express": ">=4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "express": "^5.0.0",
+    "typescript": "^5.6.0"
+  }
+}

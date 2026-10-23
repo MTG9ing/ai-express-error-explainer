@@ -1,0 +1,14 @@
+{
+  "name": "ai-express-error-explainer-demo",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Demo app for ai-express-error-explainer, installed from the packed tarball.",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "mock": "node mock-ai.js"
+  },
+  "dependencies": {
+    "ai-express-error-explainer": "file:../ai-express-error-explainer-0.1.0.tgz",
+    "express": "^5.0.0"
+  }
+}
