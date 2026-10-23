@@ -4,6 +4,14 @@
   "description": "Express error middleware that explains errors in plain English using any OpenAI-compatible API.",
   "license": "MIT",
   "author": "MTG9ing <mtg9ing@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTG9ing/ai-express-error-explainer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MTG9ing/ai-express-error-explainer/issues"
+  },
+  "homepage": "https://github.com/MTG9ing/ai-express-error-explainer#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
