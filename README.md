@@ -2,6 +2,8 @@
 
 Express error middleware that explains errors in plain English using any OpenAI-compatible AI.
 
+**📖 Documentation: https://mtg9ing.github.io/ai-express-error-explainer/**
+
 When something throws, your error response gains an `aiExplanation` field — what most likely happened, the probable root cause, and the next step to take — generated from the error message, code, stack and request context. The explanation is also logged server-side. In production the response stays a normal, safe error payload.
 
 - **Zero runtime dependencies** — uses Node's built-in `fetch`; only `express` is a peer dependency.
